@@ -94,20 +94,18 @@
     margin:-5px 0;
 }
 
-/* #experience h4 {
-    font: 600 15px/1 "figtree", sans-serif;
-    margin-bottom: -15px;
-} */
 
-p > u {
-    font: 700 15px/1.33 "figtree", sans-serif;
-    color: #7A820A;
-}
 
 .scalingP {
     /* font: 400 clamp(12px,1.2vw,15px)/1.33 "figtree", sans-serif; */
     font: 400 15/1.33 "figtree", sans-serif;
     margin-bottom: -13px; 
+}
+
+#links > p > a {
+    font: 700 15px/1.33 "figtree", sans-serif;
+    color: #7A820A;
+
 }
 
 #looking-for-jobs p {
