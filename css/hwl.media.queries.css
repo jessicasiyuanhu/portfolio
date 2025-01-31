@@ -1,0 +1,70 @@
+
+/* 
+=Large Screen ≥ 992px
+*/
+@media (min-width:992px) {
+
+} 
+
+/* =Medium Screen ≥ 768px*/ 
+
+@media (min-width:768px) and (max-width:991.99px) {
+  }
+
+
+/* =Small Screen ≥ 768px*/ 
+
+
+@media (min-width:575.99px) and (max-width: 767.99px) {
+
+    .digital-activations, .quiz, .end {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: stretch;
+    }
+    
+    .digital-activations > img, .quiz > img, .end > img  {
+        flex: 100% 20% 280%; 
+        max-width: 30%; 
+    }
+
+    main {
+        padding-top:0;
+        }
+}
+  
+
+
+
+/*==X-Small Screen < 576px
+*/
+
+@media (max-width:575.98px) {
+
+    .digital-activations, .quiz, .end {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* max-width:100%; */
+        
+    }
+
+    .digital-activations > img, .quiz > img, .end > img {
+        max-width:100%;
+        gap:10px;
+        margin-bottom: 20px;
+    }
+
+    main {
+        padding-top:0;
+        }
+
+
+    
+    }
+
+    
+
+
+    

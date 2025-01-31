@@ -17,9 +17,22 @@ li {
     margin:0;
 }
 
+.record > img{
+    margin-bottom:25px;
+}
+
+.record > img:nth-last-child(){
+    margin-bottom:0;
+}
+
+h1.subheading {
+    margin: 30px 0 0;
+}
+
 
 img {
     border-radius: 15px;
+    width:100%;
 }
 
 h1 {
@@ -70,9 +83,7 @@ p {
     color: #7A820A;
 }
 
-img {
-    width:100%;
-}
+
 
 
 
