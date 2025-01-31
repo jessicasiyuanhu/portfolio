@@ -1,0 +1,233 @@
+
+/* could put in the global css */
+
+/* make the black a charcoal grey */
+/* could make accordion text green?or something greensomething or a brown? */
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100vw;
+    padding: 20px 100px;
+    background-color: rgb(255 239 214/0.9);
+}
+
+@media (max-width:991.99px) {
+    header {
+        padding: 20px 60px;
+    }
+}
+
+@media (max-width: 767.99px) {
+    header {
+        position: relative;
+        z-index: 10;
+    }
+}
+
+/* Hamburger */
+/* ==================================================== */
+/* Default state is invisible*/
+#hamburger {
+    display: none;
+}
+
+#hb_checkbox {
+    display: none;
+}
+
+/* Label */
+.hb_label {
+    position: relative;
+    z-index: 6;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 36px;
+
+    cursor: url("../img/cursor.hover.png"), auto;
+    background-color: rgb(255 239 214);
+    border-radius: 5px;
+}
+
+/* Rotate Wrapper */
+.hb_rotate-wrapper {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    
+    transition: 0.5s ease-in-out;
+}
+
+/* rotate the rotate wrapper 135Â° clockwise */
+input#hb_checkbox:checked+label .hb_rotate-wrapper {
+    transform: rotate(135deg);
+}
+
+/* rotate the X a further 90Â° clockwise on hover */
+input#hb_checkbox:checked:hover+label .hb_rotate-wrapper {
+    transform: rotate(90deg);
+}
+
+/* Hamburger Lines */
+.hb_lines,
+.hb_lines::before,
+.hb_lines::after {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(234, 103, 36);
+}
+
+/*=position the top + bottom lines */
+.hb_lines::before,
+.hb_lines::after {
+    position: absolute;
+    content: "";
+    transition: 0.5s ease-in-out;
+}
+
+.hb_lines::before {
+    top: 0px;
+}
+
+.hb_lines::after {
+    top: 18px;
+}
+
+/*
+=rotate + reposition the top + bottom lines */
+input#hb_checkbox:checked+label .hb_lines::before,
+input#hb_checkbox:checked+label .hb_lines::after {
+    top: 9px;
+    transform: rotate(90deg);
+}
+
+/*
+=fade out the bottom line upon completion of the X */
+input#hb_checkbox:checked+label .hb_lines:after {
+    opacity: 0;
+}
+
+@media (max-width: 767.99px) {
+    #hamburger {
+        display: block;
+        position: fixed;
+        right: 10px;
+        top: 28px;
+    }
+}
+
+/* ========================================== */
+
+/* ==================================================== */
+
+/* Desktop menu */
+/* ==================================================== */
+#menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#menu a {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    color: black;
+}
+
+#menu a:hover {
+    color: #FFA600;
+}
+
+#menu>a:nth-child(n+2) {
+    margin-left: 100px;
+}
+
+#menu input:hover {
+    cursor: url("../img/cursor.hover.png"), auto;
+}
+
+@media (max-width:991.99px) {
+    #menu>a:nth-child(n+2) {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 767.99px) {
+    #menu {
+        display: none;
+    }
+}
+
+/* ==================================================== */
+
+/* Mobile menu */
+/* ==================================================== */
+@media (max-width: 767.99px) {
+
+    #mobile-menu {
+        position: fixed;
+        left: -100vw;
+        z-index: 5;
+        top:0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        gap: 30px;
+        padding: 0 0 25% 0;
+        
+        
+        background-color: rgba(255 239 214/ 0.9);
+        transition: 0.65s ease-in-out;
+    }
+
+    #hb_checkbox:checked~#mobile-menu {
+        left: 0;
+    }
+
+    #mobile-menu>a {
+        color:black;
+    }
+
+    #mobile-menu>a:nth-child(1) {
+        margin-top: 15%;
+    }
+
+    .hb_lines,
+    .hb_lines::before,
+    .hb_lines::after {
+        width: 100%;
+        height: 4px;
+        background-color: rgba(255 239 214/ 0.9);
+    }
+
+    .hb_label {
+        background-color: rgb(234, 103, 36);
+
+    }
+
+    .page-title {
+        font-size: 30px;
+        margin: 10px auto 0;
+    }
+}
+
+/* ==================================================== */

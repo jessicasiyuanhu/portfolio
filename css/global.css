@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.ul {
+    font: 400 15px/1.33 "figtree", sans-serif;
+}
+
+nav>a {
+    text-decoration: none;
+    font: 400 18px/1.33 "gelica", serif;
+}
+
+nav>a:hover {
+    color: #FFA600;
+    transition: 0.3s, ease-in-out;
+    cursor: url("../img/cursor.hover.png"), auto;
+}
+
+body {
+    background-color: rgb(255 239 214);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    cursor: url("../img/cursor.default.png"), auto;
+}
+
+
+main {
+    background-color: rgb(255 239 214);
+    display: flow-root;
+    max-width: 100%;
+    min-width: 0;
+    min-height: 100%;
+    margin: 0;
+    position: relative;
+    padding: 100px 12% 0;
+    box-sizing: border-box;
+
+}
+
+.page-title {
+    margin: 0;
+    text-decoration: none;
+    font: 500 35px/1 "gelica", serif;
+    color: rgb(234, 103, 36);
+    transition: 0.25s;
+}
+
+.page-title:hover {
+    color: #FFA600;
+}
+
+.project-heading {
+    margin:50px 0 20px 0;
+    padding:0;
+    display:flex; /* Establish a flex container */
+    flex-direction: column;
+    align-items:center;
+    width:100%;
+    gap: auto;
+}
+
+/* h1>.projects {
+    font: 500 35px/1 "gelica", serif;
+
+
+} */
+
+
+
+h1 {
+    font: 500 25px/1 "gelica", serif;
+    color: rgb(234, 103, 36);
+    margin-top: 0;
+    margin-bottom: -10px;
+}
+
+
+h1.greeting {
+    color: #7A820A;
+    font: 500 40px/1 "gelica", serif;
+    text-align: center;
+}
+
+
+h1.projects{
+    color: #7A820A;
+    font: 500 40px/1 "gelica", serif;
+    text-align: center;
+}
+
+p.subheading {
+    color: black;
+    font: 400 20px/1.33 "figtree", sans-serif;
+    text-align: center;
+}
+
+.project-heading {
+    margin:0 0 20px 0;
+    padding:0;
+    display:flex; /* Establish a flex container */
+    flex-direction: column;
+    margin-top: 50px; 
+    align-items:center;
+    width:100%;
+    gap: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+
+h2 {
+    /* font: 400 18px/1.33 "gelica", serif; clamp(16px, 1.79vw,19.2px) */
+    font: 400 18px/1 "gelica", serif;
+    /* margin:0; */
+    margin-bottom: -5px;
+}
+
+h3 {
+    margin: 0;
+    font: 500 18px/1.33 "gelica", serif;
+    color: rgb(234, 103, 36);
+    margin-bottom: -10px;
+}
+
+h4 {
+    font: 600 15px/1.33 "figtree", sans-serif;
+    /* margin:0; */
+    margin-bottom: -15px;
+}
+
+
+p {
+    /* margin:0;  */
+    font: 400 15px/1.33 "figtree", sans-serif;
+    /* margin-bottom: -10px; */
+}
+
+#links p {
+    font: 700 15px/1.33 "figtree", sans-serif;
+    color: #7A820A;
+}
+
+hr {
+    border: none;
+    /* Removes the default border */
+    height: 1px;
+    /* Sets the thickness of the rule */
+    /* background-color: rgb(234, 103, 36);  */
+    background-color: rgb(234, 103, 36);
+    margin: 0;
+
+}
+

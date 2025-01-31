@@ -1,0 +1,77 @@
+
+/* 
+=Large Screen ≥ 992px
+*/
+@media (min-width:992px) {
+
+} 
+
+/* =Medium Screen ≥ 768px*/ 
+
+@media (min-width:768px) and (max-width:991.99px) {
+    /* main {
+        padding: 0;
+    } */
+   
+    .mainContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
+/* =Small Screen ≥ 768px*/ 
+
+
+@media (min-width:575.99px) and (max-width: 767.99px) {
+
+    /* main {
+        padding: 0 30px 30px;
+    } */
+
+    main {
+        padding-top:0;
+        }
+
+    .mainContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+  
+
+    .project-title {
+        margin:0;
+    }
+        
+}
+
+
+/*==X-Small Screen < 576px
+*/
+
+@media (max-width:575.98px) {
+
+    main {
+        padding-top:0;
+        }
+
+
+    /* main {
+        padding: 0 3px 30px;
+    } */
+
+    .mainContainer {
+        flex-direction: column;
+        align-items: cs;
+    }
+
+    .image-column {
+        display: flex; 
+        padding:0px;
+        margin: 0 auto 60px;
+        min-width:200px;
+        place-items: center;
+    }
+
+    
+}

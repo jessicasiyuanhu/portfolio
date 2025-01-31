@@ -1,0 +1,147 @@
+
+/* 
+=Large Screen ≥ 992px
+*/
+@media (min-width:992px) {
+
+    .image-column {
+        display: flex; 
+        padding:0px;
+        margin: 0 auto 0px;
+        place-items: top;
+    }
+
+    #hello {
+        margin-top: 40px;
+    }
+}
+
+} 
+
+/* =Medium Screen ≥ 768px*/ 
+
+@media (min-width:768px) and (max-width:991.99px) {
+    
+    main {
+        padding: 100px 30px 0;
+    }
+   
+    .mainContainer {
+        flex-direction: column;
+        align-items: center;
+        /* width:100vw; */
+        /* margin:0; */
+    }
+
+    .image-column {
+        display: grid;
+        padding:0px;
+        margin: 0 auto 30px;
+        place-items: center;
+        /* height:75vh; */
+    }
+  }
+
+/* =Small Screen ≥ 768px*/ 
+
+
+@media (min-width:575.99px) and (max-width: 767.99px) {
+
+    main {
+        padding: 10px 30px 0;
+    }
+
+    .mainContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-column {
+        display: flex;
+        padding:0px;
+        /* margin: 0 auto 60px; */
+        place-items: center;
+    }
+
+    .textColumns {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #about-me {
+        max-width:100%;
+    }
+    
+
+    /* .nested-columns {
+        grid-template-columns: 1fr;
+    } */
+
+    #self-portrait {
+        display: flex;
+        justify-content: center;
+        align-items: top;
+    }
+
+    .image-column {
+        display: flex; 
+        padding:0px;
+        margin: 0 auto 60px;
+
+    }
+        
+}
+
+
+/*==X-Small Screen < 576px
+*/
+
+@media (max-width:575.98px) {
+
+    main {
+        padding: 0 3px 30px;
+    }
+
+    .mainContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+  
+    .textColumns {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #about-me {
+        max-width:100%;
+    }
+
+    .hero {
+        margin: 0 0 70px;
+    }
+    
+
+    /* .nested-columns {
+        grid-template-columns: 1fr;
+    } */
+
+    #self-portrait {
+        display: flex;
+        justify-content: center;
+        align-items: top;
+    }
+
+    .image-column {
+        display: flex; 
+        padding:0px;
+        margin: 0 auto 60px;
+        min-width:200px;
+        place-items: center;
+    }
+
+    
+
+
+    
+}
