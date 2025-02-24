@@ -60,14 +60,20 @@ p {
 .digital-activations, .quiz, .end {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-    align-items: stretch;
+    /* flex-direction: row; */
+    /* align-items: stretch; */
 }
 
 .digital-activations > img, .quiz > img, .end > img  {
-    flex: 100% 20% 280%; 
+    /* flex: 100% 20% 280%;  */
+    flex: 1 1 auto; 
     max-width: 25%; 
 }
+
+#image-8 {
+    flex:auto;
+}
+
 
 
 .context
@@ -90,13 +96,4 @@ p {
     font: 700 15px/1.33 "figtree", sans-serif;
     color: #7A820A;
 }
-
-
-
-
-
-
-
-
-
 

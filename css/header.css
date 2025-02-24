@@ -1,7 +1,7 @@
 
 /* could put in the global css */
 
-/* make the black a charcoal grey */
+/* make the #6d6e71 a charcoal grey */
 /* could make accordion text green?or something greensomething or a brown? */
 
 
@@ -55,7 +55,7 @@ header {
     width: 32px;
     height: 36px;
 
-    cursor: url("../img/cursor.hover.png"), auto;
+    cursor: url("../img/cursor.hover.cur"), pointer; 
     background-color: rgb(255 239 214);
     border-radius: 5px;
 }
@@ -146,7 +146,7 @@ input#hb_checkbox:checked+label .hb_lines:after {
     display: block;
     padding-top: 5px;
     padding-bottom: 6px;
-    color: black;
+    color: #6d6e71;
 }
 
 #menu a:hover {
@@ -158,7 +158,7 @@ input#hb_checkbox:checked+label .hb_lines:after {
 }
 
 #menu input:hover {
-    cursor: url("../img/cursor.hover.png"), auto;
+    cursor: url("../img/cursor.hover.cur"), pointer; 
 }
 
 @media (max-width:991.99px) {
@@ -204,7 +204,7 @@ input#hb_checkbox:checked+label .hb_lines:after {
     }
 
     #mobile-menu>a {
-        color:black;
+        color:#6d6e71;
     }
 
     #mobile-menu>a:nth-child(1) {

@@ -1,5 +1,12 @@
+html, body {
+    cursor: url("../img/cursor.default.cur"), auto;
+}
+
+
 * {
+    cursor: url("../img/cursor.default.cur"), auto;
     box-sizing: border-box;
+    
 }
 
 
@@ -15,7 +22,7 @@ nav>a {
 nav>a:hover {
     color: #FFA600;
     transition: 0.3s, ease-in-out;
-    cursor: url("../img/cursor.hover.png"), auto;
+    cursor: url("../img/cursor.hover.cur"), pointer; 
 }
 
 body {
@@ -23,7 +30,6 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    cursor: url("../img/cursor.default.png"), auto;
 }
 
 
@@ -50,6 +56,7 @@ main {
 
 .page-title:hover {
     color: #FFA600;
+    cursor: url("../img/cursor.hover.cur"), pointer; 
 }
 
 .project-heading {
@@ -92,7 +99,7 @@ h1.projects{
 }
 
 p.subheading {
-    color: black;
+    color: #6d6e71;
     font: 400 20px/1.33 "figtree", sans-serif;
     text-align: center;
 }
@@ -154,3 +161,17 @@ hr {
 
 }
 
+.pro-des > .accordion > img {
+    margin: 16px 0 0 0;
+}
+
+#links > p > a {
+    font: 700 15px/1.33 "figtree", sans-serif;
+    color: #7A820A;
+
+}
+
+#links > p > a:hover {
+    color: #FFA600;
+    cursor: url("../img/cursor.hover.cur"), pointer; 
+}

@@ -28,21 +28,21 @@ Updated= 24.11.27 */
 /*
 =transition the accordion's text color + max height */
 .chv_checkbox:checked ~ .accordion {
-    max-height:100vh;
+    max-height:1500px;
 }
 
 /* style the span-element */
 
 .accordion span.red {
     color:transparent;
-    transition:3s ease-in-out;
+    transition:2s ease-in-out;
 }
 
 /*
 =transition the span element's text color from transparent to red */
 .chv_checkbox:checked ~ .accordion span.red{
     /* color:rgb(255 239 214/0.9); */
-	color:black;
+	color:#6d6e71;
 }
 
 /*
@@ -54,10 +54,10 @@ Updated= 24.11.27 */
 ============================================= */
 .chv_checkbox {
 	position: absolute;
-	top: 0; left: 0;
-	width: 100%; height: 100%;
+	top: -10px; right: -10px;
+	width: 100%; height: 25px;
 	opacity: 0%;
-	cursor: url("../img/cursor.hover.png"), auto;
+	cursor: url("../img/cursor.hover.cur"), pointer;
 	z-index: 5;
 }
 
@@ -99,7 +99,7 @@ Updated= 24.11.27 */
 .chv_rotate-wrapper::before, 
 .chv_rotate-wrapper::after {
 	content: "";
-	background-color: black;
+	background-color: #6d6e71;
 	width: 50%; 
 	height: 1.8px;
 } 
@@ -107,7 +107,7 @@ Updated= 24.11.27 */
 /*
 =rotate the left chevron line 45Â° clockwise + fine-tune its alignment */
 .chv_rotate-wrapper::before {
-	background-color: black;
+	background-color: #6d6e71;
 	transform: rotate(45deg);
     transform:rotate(45deg) translate(3.5px, -3.5px);
 }
@@ -122,11 +122,11 @@ Updated= 24.11.27 */
 /* ========================================== */
 
 p {
-	color:black;
+	color:#6d6e71;
 }
 
 li {
-	color:black;
+	color:#6d6e71;
 }
 
 
