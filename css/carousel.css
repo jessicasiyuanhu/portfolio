@@ -36,7 +36,7 @@
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a #6d6e71 background color with a little bit see-through */
+/* On hover, add a #58595b background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }

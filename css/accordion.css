@@ -42,7 +42,7 @@ Updated= 24.11.27 */
 =transition the span element's text color from transparent to red */
 .chv_checkbox:checked ~ .accordion span.red{
     /* color:rgb(255 239 214/0.9); */
-	color:#6d6e71;
+	color:#58595b;
 }
 
 /*
@@ -99,7 +99,7 @@ Updated= 24.11.27 */
 .chv_rotate-wrapper::before, 
 .chv_rotate-wrapper::after {
 	content: "";
-	background-color: #6d6e71;
+	background-color: #58595b;
 	width: 50%; 
 	height: 1.8px;
 } 
@@ -107,7 +107,7 @@ Updated= 24.11.27 */
 /*
 =rotate the left chevron line 45Â° clockwise + fine-tune its alignment */
 .chv_rotate-wrapper::before {
-	background-color: #6d6e71;
+	background-color: #58595b;
 	transform: rotate(45deg);
     transform:rotate(45deg) translate(3.5px, -3.5px);
 }
@@ -122,11 +122,11 @@ Updated= 24.11.27 */
 /* ========================================== */
 
 p {
-	color:#6d6e71;
+	color:#58595b;
 }
 
 li {
-	color:#6d6e71;
+	color:#58595b;
 }
 
 

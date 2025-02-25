@@ -1,7 +1,7 @@
 
 /* could put in the global css */
 
-/* make the #6d6e71 a charcoal grey */
+/* make the #58595b a charcoal grey */
 /* could make accordion text green?or something greensomething or a brown? */
 
 
@@ -146,7 +146,7 @@ input#hb_checkbox:checked+label .hb_lines:after {
     display: block;
     padding-top: 5px;
     padding-bottom: 6px;
-    color: #6d6e71;
+    color: #58595b;
 }
 
 #menu a:hover {
@@ -204,7 +204,7 @@ input#hb_checkbox:checked+label .hb_lines:after {
     }
 
     #mobile-menu>a {
-        color:#6d6e71;
+        color:#58595b;
     }
 
     #mobile-menu>a:nth-child(1) {

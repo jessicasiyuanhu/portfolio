@@ -4,7 +4,7 @@ html, body {
 
 
 * {
-    cursor: url("../img/cursor.default.cur"), auto;
+    cursor: url("../img/cursor.default.cur"), auto !important ;
     box-sizing: border-box;
     
 }
@@ -99,7 +99,7 @@ h1.projects{
 }
 
 p.subheading {
-    color: #6d6e71;
+    color: #58595b;
     font: 400 20px/1.33 "figtree", sans-serif;
     text-align: center;
 }
@@ -122,6 +122,7 @@ h2 {
     /* font: 400 18px/1.33 "gelica", serif; clamp(16px, 1.79vw,19.2px) */
     font: 400 18px/1 "gelica", serif;
     /* margin:0; */
+    color: #58595b;
     margin-bottom: -5px;
 }
 
@@ -134,7 +135,7 @@ h3 {
 
 h4 {
     font: 600 15px/1.33 "figtree", sans-serif;
-    /* margin:0; */
+    color: #58595b;
     margin-bottom: -15px;
 }
 
@@ -143,6 +144,7 @@ p {
     /* margin:0;  */
     font: 400 15px/1.33 "figtree", sans-serif;
     /* margin-bottom: -10px; */
+    color: #58595b;
 }
 
 #links p {
