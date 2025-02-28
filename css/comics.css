@@ -12,27 +12,7 @@
 
 }
 
-.hero {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
 
-.hero>#fruit {
-    margin: 40px 0;
-}
-
-#fruit {
-    display: block;
-    max-width: 50%;
-    min-width: 500px;
-    margin: 0 auto;
-}
-
-/*
-=Image Gallery*/
 a {
     text-decoration: none;
     color: #58595b;
