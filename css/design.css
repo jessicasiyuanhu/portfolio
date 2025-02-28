@@ -140,13 +140,13 @@ h2 {
 }
 
 .project-container:hover {
-    cursor: url("../img/cursor.hover.cur"), pointer; 
+    cursor: url("../img/cursor.hover.png"), pointer; 
     color: #7A820A;
 }
 
 .mainContainer > .selectedWorks> a:hover
 {
-    cursor: url("../img/cursor.hover.cur"), pointer; 
+    cursor: url("../img/cursor.hover.png"), pointer; 
     color: #7A820A;
 
 }

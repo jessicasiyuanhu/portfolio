@@ -86,7 +86,7 @@ h4 {
 
 
 .project-container:hover {
-    cursor: url("../img/cursor.hover.cur"), pointer; 
+    cursor: url("../img/cursor.hover.png"), pointer; 
     color: #7A820A;
     /* Change the text color on hover */
 }
