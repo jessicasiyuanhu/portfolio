@@ -4,7 +4,7 @@ html, body {
 
 
 * {
-    cursor: url("../assets/cursor.default.png"), auto;
+    /* cursor: url("../assets/cursor.default.png"), auto; */
     box-sizing: border-box;
     
 }
