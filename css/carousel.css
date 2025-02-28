@@ -16,7 +16,7 @@
 
 /* Next & previous buttons */
 .prev, .next {
-  cursor: url("../img/cursor.hover.png"), pointer; 
+  cursor: url("../assets/cursor.hover.png"), pointer; 
   position: absolute;
   top: 50%;
   width: auto;
@@ -63,7 +63,7 @@
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: url("../img/cursor.hover.png"), pointer; 
+  cursor: url("../assets/cursor.hover.png"), pointer; 
   height: 15px;
   width: 15px;
   margin: 0 2px;

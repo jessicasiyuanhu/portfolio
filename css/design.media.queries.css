@@ -58,7 +58,7 @@
     .page-title-link:hover {
         color: #FFA600;
         transition: color 0.3s ease-in-out;
-        cursor: url("../img/cursor.hover.png"), pointer; 
+        cursor: url("../assets/cursor.hover.png"), pointer; 
     }
 
 

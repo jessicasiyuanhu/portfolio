@@ -55,7 +55,7 @@ header {
     width: 32px;
     height: 36px;
 
-    cursor: url("../img/cursor.hover.png"), pointer; 
+    cursor: url("../assets/cursor.hover.png"), pointer; 
     background-color: rgb(255 239 214);
     border-radius: 5px;
 }
@@ -158,7 +158,7 @@ input#hb_checkbox:checked+label .hb_lines:after {
 }
 
 #menu input:hover {
-    cursor: url("../img/cursor.hover.png"), pointer; 
+    cursor: url("../assets/cursor.hover.png"), pointer; 
 }
 
 @media (max-width:991.99px) {
