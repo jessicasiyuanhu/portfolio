@@ -147,3 +147,67 @@ h2 {
     margin: 17px 0;
     width:318px;
 }
+
+/* 
+=Large Screen ≥ 992px
+*/
+@media (min-width:992px) {}
+
+/* =Medium Screen ≥ 768px*/
+
+@media (max-width:991.99px) {
+    main {
+        padding: 100px 30px 0;
+    }
+}
+
+/* =Small Screen ≥ 768px*/
+
+
+@media (max-width: 767.99px) {
+    main {
+        padding: 10px 30px 0;
+    }
+
+    .project-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-container {
+        width: 100%;
+    }
+
+    .page-title {
+        font-size: 30px;
+        margin: 10px auto 0;
+    }
+}
+
+
+/*==X-Small Screen < 576px*/
+@media (max-width:575.98px) {
+    .hero {
+        margin: 0 0 70px;
+    }
+
+    #fruit {
+        object-fit: cover;
+        width: 10vw;
+        height: 60vw;
+        min-width: 60vw;
+    }
+
+    .page-title-link {
+        margin-top: 10px;
+        color: rgb(234, 103, 36);
+        text-decoration: none;
+        /* Remove underline if desired */
+    }
+
+    .page-title-link:hover {
+        color: #FFA600;
+        transition: color 0.3s ease-in-out;
+        cursor: url("../assets/cursor.hover.png"), pointer; 
+    }
+
