@@ -1,3 +1,4 @@
+
 .mainContainer {
     width: 100%;
     height:100vh;
@@ -23,6 +24,14 @@
     height:auto;
 }
 
+#mobile-menu :nth-child(2) {
+
+
+}
+
+
+
+
 .allText {
     width:67%;
     display: flex;              
@@ -31,6 +40,7 @@
     align-items: left;        
     margin: 0 4%;   
 }
+
 
 .textColumns {
     display: flex;
@@ -200,6 +210,23 @@
     rotate: -120deg;
 } 
 
+@keyframes starGrow {
+    from {
+        transform: rotate(0deg) scale(1);
+      }
+      to {
+        transform: rotate(270deg) scale(1.5); /* Rotate 270deg and scale up */
+      }
+} 
+
+@keyframes starShrink {
+    from {
+        transform: rotate(270deg) scale(1.5);  
+      }
+      to {
+        transform: rotate(0deg) scale(1); /* Rotate 270deg and scale up */
+      }
+} 
 
 #menu a:nth-child(3) {
     color: #7A820A;
