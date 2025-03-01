@@ -175,3 +175,39 @@ hr {
     color: #FFA600;
     cursor: url("../assets/cursor.hover.png"), pointer; 
 }
+
+.footer {
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    gap:10px;
+    width: fit-content;
+    margin:30px auto;
+}
+
+.footer > p{
+    /* display:block; */
+    text-align: center;
+}
+
+.footer-star {
+    width:20px;
+}
+
+@keyframes starGrow {
+    from {
+        transform: rotate(0deg) scale(1);
+      }
+      to {
+        transform: rotate(270deg) scale(1.5); /* Rotate 270deg and scale up */
+      }
+} 
+
+@keyframes starShrink {
+    from {
+        transform: rotate(270deg) scale(1.5);  
+      }
+      to {
+        transform: rotate(0deg) scale(1); /* Rotate 270deg and scale up */
+      }
+} 
