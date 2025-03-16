@@ -25,14 +25,21 @@ li {
     margin-bottom:0;
 }
 
+.process > img{
+    margin-bottom:25px;
+}
+
 h1.subheading {
     margin: 30px 0 0;
 }
 
-
 img {
     border-radius: 15px;
     width:100%;
+}
+
+#ready {
+    margin:80px 0;
 }
 
 h1 {
@@ -83,6 +90,14 @@ p {
     color: #7A820A;
 }
 
+#work-process {
+    margin-top:auto;
+}
+
+#process-heading {
+    margin-bottom: 10px;
+
+}
 
 
 
