@@ -69,12 +69,9 @@
     width:80%;
 }
 
-/* 
-/*other abnoramalities*/
 #self-portrait {
     margin-top: 30px;
     width:80%;
-    /* margin-bottom: -80px; */
     object-fit:contain;
 }
 
@@ -93,12 +90,9 @@
 
 
 .scalingP {
-    /* font: 400 clamp(12px,1.2vw,15px)/1.33 "figtree", sans-serif; */
     font: 400 15/1.33 "figtree", sans-serif;
     margin-bottom: -13px; 
 }
-
-
 
 
 #looking-for-jobs p {
@@ -224,6 +218,12 @@
     color: #7A820A;
 }
 
+h2 {
+    font: 400 18px/1 "gelica", serif;
+    color: #58595b;
+    margin-top:5px;
+    margin-bottom: -5px;
+}
 
 
 

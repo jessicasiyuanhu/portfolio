@@ -119,6 +119,7 @@ p.subheading {
 h2 {
     font: 400 18px/1 "gelica", serif;
     color: #58595b;
+    margin-top:5px;
     margin-bottom: -5px;
 }
 
