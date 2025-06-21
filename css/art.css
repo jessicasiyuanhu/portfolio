@@ -81,14 +81,15 @@ h4 {
     padding: 0;
     width: 48.5%;
     position: relative;
-    /* Set the position context for the overlay */
 }
 
 
 .project-container:hover {
     cursor: url("../assets/cursor.hover.png"), pointer; 
-    color: #7A820A;
-    /* Change the text color on hover */
+}
+
+.project-container:hover h2{
+    color:#7A820A;
 }
 
 .img-container {
@@ -114,13 +115,10 @@ h4 {
     width: 100%;
     height: 100%;
     background-color: #FFA600;
-    /* Yellow overlay */
     border-radius: 15px;
     mix-blend-mode: overlay;
     opacity: 0;
-    /* Hide the overlay initially */
     transition: opacity 0.3s ease;
-    /* Smooth transition for overlay */
 }
 
 .project-container:hover .img-container::after {
@@ -147,6 +145,8 @@ h2 {
     margin: 17px 0;
     width:318px;
 }
+
+
 
 /* 
 =Large Screen ≥ 992px

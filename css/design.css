@@ -81,6 +81,9 @@ h4 {
     /* Set the position context for the overlay */
 }
 
+.project-container:hover h2{
+    color:#7A820A;
+}
 
 .img-container {
     position: relative;
